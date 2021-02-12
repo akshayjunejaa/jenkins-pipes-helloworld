@@ -18,6 +18,4 @@ pipeline {
     stage('publish') {
       echo "uploading package..."
     }
-  } 
- }
-}
+} 
