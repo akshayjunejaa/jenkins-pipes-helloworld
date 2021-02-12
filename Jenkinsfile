@@ -1,5 +1,5 @@
-node {
-  try {
+pipeline {
+    agent any
     stage('checkout') {
       checkout scm
     }
@@ -19,4 +19,5 @@ node {
       echo "uploading package..."
     }
   } 
+ }
 }
